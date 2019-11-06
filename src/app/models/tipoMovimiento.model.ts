@@ -1,4 +1,4 @@
-export class TipoMovimientoModel{
+export class TipoMovimientoModel {
     idTipoMovimiento: string;
     nombreNaturaleza: string;
     nombre: string;

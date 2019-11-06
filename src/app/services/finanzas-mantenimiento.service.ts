@@ -21,6 +21,12 @@ export class FinanzasMantenimientoService {
   
   }
 
+  getNaturaleza(){
+  
+    return this.http.get(`/naturaleza`)
+
+  }
+
   private crearArreglo (tipoMovimientoObj: object)
   {
     const tipoMovimientos: TipoMovimientoModel[]=[];
